@@ -60,7 +60,7 @@ UMIP/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/akankshperala/SmartTrafficIntelligenceSystem)
 cd UMIP
 ```
 
@@ -68,11 +68,6 @@ cd UMIP
 
 ### 2. Install Python dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt` yet:
 
 ```bash
 pip install traci sumolib
