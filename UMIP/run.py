@@ -39,18 +39,27 @@ def main():
     print("UMIP")
     print("=" * 80)
 
+    print("1. Before generate_routes")
     generate_routes()
+    print("2. After generate_routes")
 
+    print("3. Creating TraCIManager")
     manager = TraCIManager()
 
+    print("4. Creating Simulation")
     simulation = Simulation()
 
+    print("5. Creating Analytics")
     analytics = AnalyticsEngine()
 
+    print("6. Creating Tracker")
     tracker = VehicleTracker()
-    try:
 
+    try:
+        print("7. Before manager.start()")
         manager.start()
+
+        print("8. After manager.start()")
 
         print("\n✓ SUMO Started\n")
 
